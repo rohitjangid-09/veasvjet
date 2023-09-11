@@ -1,0 +1,100 @@
+.coaches {
+    background-color: var(--dark-gree);
+    height: 1300px;
+
+    h2 {
+        padding: 50px 0 0 0;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: var(--white);
+    }
+
+    .steven-all {
+        padding-top: 50px;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            li {
+                margin: 10px;
+                width: calc(50% - 20px);
+
+                .steven-box {
+                    display: flex;
+
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .right-text {
+                        background-color: var(--haaf-dark);
+                        width: 303px;
+                        height: auto;
+                        padding: 25px;
+
+                        h3 {
+                            font-weight: 700;
+                            font-size: 36px;
+                            line-height: 105.52%;
+                            color: var(--brand-primary);
+                            padding-top: 80px;
+                            width: 100px;
+                        }
+
+                        h4 {
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: var(--white);
+                            padding-top: 30px;
+                        }
+
+                        p {
+                            padding-top: 30px;
+
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 30px;
+                            width: 250px;
+                            color: var(--gree);
+                        }
+
+                        .social-icon {
+                            ul {
+                                display: flex;
+                                justify-content: left;
+                                align-items: center;
+
+                                li {
+                                    background: var(--gree);
+                                    padding: 8px;
+                                    text-align: center;
+                                    width: 47px;
+                                    height: 41px;
+                                    visibility: visible;
+                                    opacity: 1;
+
+                                    img {
+                                        width: 30px;
+                                    }
+                                }
+
+                                & li:hover {
+                                    background-color: var(--dark-gree);
+                                    opacity: 1;
+                                    transition: 0.5s all ease;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

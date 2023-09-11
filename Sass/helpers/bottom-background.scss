@@ -1,0 +1,37 @@
+.bottom-background {
+    background: url(../images/bottom-background.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+
+    .icon-box {
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                margin: 120px 40px;
+
+                .icon {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        height: 60px;
+                    }
+
+                    .icon-text {
+                        font-weight: 500;
+                        font-size: 20px;
+                    }
+
+                    span {
+                        font-weight: 500;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

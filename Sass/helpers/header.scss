@@ -1,0 +1,92 @@
+.menus {
+    border-bottom: 2px solid var(--gree);
+  
+
+    .menu-all {
+        display: flex;
+        justify-content: space-between;
+        padding: 11px;
+
+        .logo {
+            a {
+                img {
+                    height: 40px;
+                    // padding-top: 25px;
+                }
+            }
+        }
+
+        .menu-icon {
+            display: none;
+        }
+
+        .menu {
+
+            ul {
+                display: flex;
+                align-items: center;
+
+                li {
+
+                    a {
+                        padding: 0 10px;
+
+                    }
+
+                    &:first-child {
+                        margin-right: 400px;
+                    }
+
+                    &:nth-last-child(3) img {
+
+                        height: 25px;
+                    }
+
+                    &:nth-last-child(4) img {
+                        height: 20px;
+                        border-left: 2px solid var(--gree);
+                        padding: 20px 0;
+                    }
+
+                    &:nth-last-child(1) img {
+                        height: 40px;
+                    }
+
+                    &:nth-last-child(2) img {
+                        height: 40px;
+                    }
+
+
+
+                    span {
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 24px;
+                        color: var(--white);
+                    }
+
+                    a {
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: var(--white);
+                        visibility: visible;
+                        opacity: 1;
+
+                        img {
+                            height: 10px;
+
+                        }
+                    }
+
+                    & a:hover {
+                        color: var(--sky);
+                        opacity: 1;
+                        transition: 0.9s all ease;
+                    }
+                }
+            }
+        }
+
+    }
+}

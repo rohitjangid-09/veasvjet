@@ -1,0 +1,47 @@
+.bottom {
+    background-color: var(--haff-black);
+    height: 200px;
+
+    .bottom-logo {
+        display: flex;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+
+        .bottom-text-last {
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 117.52%;
+            color: var(--gree);
+            margin-left: 30px;
+            border-left: 2px solid var(--gree);
+            padding: 10px;
+        }
+    }
+
+    .zemoz {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 2px solid var(--gree);
+
+        h3 {
+            color: var(--gree);
+            font-weight: 500;
+            font-size: 20px;
+            padding-top: 10px;
+            span{
+                color: var(--sky);
+                font-size: 25px;
+            }
+        }
+
+        .zemoz-icon {
+
+            img {
+                height: 30px;
+                margin-top: 10px;
+            }
+        }
+    }
+}

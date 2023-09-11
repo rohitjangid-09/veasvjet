@@ -1,0 +1,253 @@
+@media screen and (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .slider {
+        height: 600px;
+
+        .menus {
+            .menu-all {
+                align-items: center;
+
+                .logo {
+                    a {
+                        img {
+                            height: 40px;
+                        }
+                    }
+                }
+
+                .menu-icon {
+                    display: block;
+
+                    img {
+                        height: 40px;
+                    }
+                }
+            }
+
+            .menu {
+                display: none;
+            }
+        }
+
+        .slider-text {
+            padding-top: 33px;
+
+            span {
+                font-weight: 300;
+                font-size: 30px;
+            }
+
+            h1 {
+                text-align: center;
+                font-weight: 700;
+                font-size: 38px;
+                line-height: 44px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 25px;
+                width: 370px;
+            }
+        }
+    }
+
+    .programs {
+        height: auto;
+
+        h2 {
+            padding-top: 20px;
+            font-weight: 600;
+            font-size: 30px;
+        }
+
+        .our-image {
+            ul {
+                flex-direction: column;
+
+                li {
+                    width: 100%;
+                    margin: 20px 0;
+
+                    .ourlay-image {
+                        width: 100%;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .coaches {
+        height: 4129px;
+
+        .steven-all {
+            padding-top: 50px;
+
+            ul {
+                li {
+                    width: 100%;
+
+                    .steven-box {
+                        flex-direction: column;
+
+                        .right-text {
+                            width: 100%;
+
+                            h3 {
+                                padding-top: 44px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .studio {
+        height: 520px;
+
+        .left-penal-text {
+            flex-direction: column;
+            padding: 50px 15px;
+
+            .studio-text {
+                h2 {
+                    font-size: 53px;
+                    line-height: 57px;
+                }
+
+                span {
+                    font-size: 33px;
+                    padding-right: 127px;
+                }
+            }
+
+            .right-penal-text {
+                margin: 10px 0;
+
+                ul {
+                    li {
+
+                        h3 {
+                            font-size: 15px;
+                            width: 407px;
+
+                            img {
+                                height: 12px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .testimonials {
+        height: 1699px;
+
+        .testimonials-box {
+            padding: 0;
+
+            ul {
+                li {
+                    margin: 50px 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .workout {
+        ul {
+            li {
+                width: 50%;
+
+                img {
+                    height: 254px;
+                }
+            }
+        }
+    }
+
+    .offar {
+        height: 440px;
+
+        h2 {
+            font-size: 35px;
+            font-weight: 500;
+            padding-top: 50px;
+        }
+
+        span {
+            font-weight: 200;
+            font-size: 25px;
+            padding-top: 0px;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 15px;
+            width: 270px;
+            display: inline-block;
+            margin: auto;
+        }
+    }
+
+    .bottom-background {
+        height: 510px;
+
+        .icon-box {
+            ul {
+                flex-direction: column;
+
+                li {
+                    margin: 0px 40px;
+                    padding-top: 84px;
+
+                    .icon {
+                        .icon-text {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom {
+        height: 385px;
+
+        .bottom-logo {
+            display: block;
+            text-align: center;
+
+            .bottom-text-last {
+                padding-top: 20px;
+                display: inline-block;
+                border: none;
+            }
+
+
+        }
+
+        .zemoz {
+            h3 {
+                font-size: 15px;
+                span{
+                    font-size: 23px;
+                }
+            }
+
+            .zemoz-icon {
+                margin-right: 15px;
+            }
+        }
+    }
+}

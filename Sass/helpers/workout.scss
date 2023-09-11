@@ -1,0 +1,16 @@
+.workout {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+            width: 25%;
+
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}

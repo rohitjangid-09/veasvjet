@@ -1,0 +1,51 @@
+.offar {
+
+    background-color: var(--haff-black);
+    height: 450px;
+    text-align: center;
+
+    h2 {
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 117.52%;
+        padding-top: 30px;
+        color: var(--brand-primary);
+    }
+
+    span {
+        font-weight: 200;
+        font-size: 54px;
+        line-height: 58px;
+        color: var(--white);
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        width: 850px;
+        color: var(--white);
+        margin: auto;
+        margin-top: 41px;
+    }
+
+    a {
+
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        color: var(--black);
+        background-color: var(--brand-primary);
+        padding: 15px 20px;
+        display: inline-block;
+        margin-top: 41px;
+
+    }
+
+    & a:hover {
+        color: var(--white);
+        background-color: var(--black);
+
+    }
+}

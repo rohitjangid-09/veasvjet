@@ -47,14 +47,11 @@
             padding: 20px 30px;
             display: inline-block;
             color: var(--black);
-            visibility: visible;
-            opacity: 1;
+            transition: 0.5s all ease;
         }
 
         & a:hover {
             background-color: var(--dark-gree);
-            opacity: 1;
-            transition: 0.5s all ease;
             color: var(--white);
         }
     }
